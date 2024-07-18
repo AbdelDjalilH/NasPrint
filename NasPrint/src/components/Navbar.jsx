@@ -18,11 +18,12 @@ export default function Navbar() {
         Nos produits
       </Link>
 
-      <Link to="/nos-nouveautées" className="links-nav">
-        Nos nouveautées
-      </Link>
-
       <ul className="list-2boutons">
+        <li>
+          <Link to="/inscription" className="links-nav2">
+            S'inscrire
+          </Link>
+        </li>
         <li>
           <Link to="/connexion" className="links-nav2">
             Connexion

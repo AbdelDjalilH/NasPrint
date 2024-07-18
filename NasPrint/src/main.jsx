@@ -8,6 +8,7 @@ import APropos from "./pages/APropos.jsx";
 import NosProduits from "./pages/NosProduits.jsx";
 import NosNouveautees from "./pages/NosNouveautees.jsx";
 import Connexion from "./pages/Connexion.jsx";
+import Register from "./pages/Register.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         element: <NosNouveautees />,
         path: "/nos-nouveautées",
+      },
+      {
+        element: <Register />,
+        path: "/inscription",
       },
       {
         element: <Connexion />,
