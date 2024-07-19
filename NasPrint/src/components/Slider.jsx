@@ -1,8 +1,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "../styles/slider.css";
-import datasSlider from "../data/sliderHome";
-("../data/sliderHome.js");
+import datasSlider from "../data/dataCarousel";
 
 export default function Slider() {
   return (

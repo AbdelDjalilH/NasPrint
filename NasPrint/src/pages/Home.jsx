@@ -25,7 +25,7 @@ export default function Home() {
             <h3 className="titlesecond-two">
               Décoration murale - Aid Moubarak
             </h3>
-            <p className="price2st-two">15.00€</p>
+            <p className="price2st-two">12.00€</p>
           </div>
         </div>
       </section>
@@ -37,12 +37,12 @@ export default function Home() {
             <h3 className="titlethird-three">
               Décoration murale - Aid Moubarak
             </h3>
-            <p className="price3rd-three">15.00€</p>
+            <p className="price3rd-three">7.00€</p>
           </div>
           <div className="bestSells-two">
             <img className="fourImage" src={img4} alt="" />
             <h3 className="titleFour-four">Décoration murale - Aid Moubarak</h3>
-            <p className="price4st-four">15.00€</p>
+            <p className="price4st-four">5.00€</p>
           </div>
           <div className="bestSells-three">
             <img className="fiveImage" src={img5} alt="" />
